@@ -16,7 +16,6 @@ function doMath(){
 const input = document.querySelector('input')
 
 input.addEventListener('keydown', function(event) {
-      console.log(event.key)
   if (isNaN(event.key)) {
     return event.preventDefault()
     alert("this is not a number, but instead it is a string");
