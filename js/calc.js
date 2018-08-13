@@ -33,6 +33,14 @@ document.querySelector('#number2').addEventListener('keydown', function(event) {
   }
 })
 
+document.querySelector('#operator').addEventListener('keydown', function(event) {
+  if (isNaN(event.key)) {
+    alert("this is not a number, but instead it is a string");
+    return event.preventDefault()
+    
+  }
+})
+
 
 var answer;
 function result (num1,num2,operator){
