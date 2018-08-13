@@ -25,7 +25,8 @@ function result (num1,num2,operator){
     answer = (num1/num2)
   }
   else if (operator == "*"){
-    answer = (num1*num2)
+    answer = (num1*num)
   }
+  else if ((num1==NaN) || (num2==NaN))
   $("#result").html(answer)
 }
