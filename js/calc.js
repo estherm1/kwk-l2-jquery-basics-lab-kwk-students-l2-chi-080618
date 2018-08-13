@@ -18,7 +18,7 @@ const input = document.querySelector('input')
 input.addEventListener('keydown', function(event) {
   if (isNaN(event.key)) {
     return event.preventDefault()
-    alert("this is not a number, but instead it is a string");
+    //alert("this is not a number, but instead it is a string");
   }
 })
 
