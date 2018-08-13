@@ -15,11 +15,15 @@ function doMath(){
 }
 var answer = 0
 function result (num1,num2,operator){
-  if (isNaN((num1) || (num2))){
+  if (isNaN(num1)){
   answer = ("there is no answer")
    $("#result").html(answer)
   }
-  else{
+  else if (isNaN(num2)){
+  answer = ("there is no answer")
+   $("#result").html(answer)
+  }
+  else {
   if (operator == "-"){
     answer = (num1-num2)
   }
