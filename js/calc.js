@@ -22,6 +22,13 @@ input.addEventListener('keydown', function(event) {
     
   }
 })
+input.addEventListener('keydown', function(event) {
+  if (isNaN(event.key)) {
+    alert("this is not a number, but instead it is a string");
+    return event.preventDefault()
+    
+  }
+})
 
 
 var answer;
