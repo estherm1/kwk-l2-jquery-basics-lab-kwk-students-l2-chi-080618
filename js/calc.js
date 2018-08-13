@@ -32,13 +32,7 @@ document.querySelector('#number2').addEventListener('keydown', function(event) {
   }
 })
 
-document.querySelector('#operation').addEventListener('keydown', function(event) {
-  if (isNaN(event.key)) {
-    alert("this is not a operator, but instead it is a string");
-    return event.preventDefault()
-    
-  }
-})
+
 
 
 var answer;
