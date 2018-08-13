@@ -34,7 +34,7 @@ function result (num1,num2,operator){
     answer = (num1/num2)
   }
   else if (operator == "*"){
-    answer = (num1*num)
+    answer = (num1*num2)
   }
   else {
     answer = ("not an operation")
