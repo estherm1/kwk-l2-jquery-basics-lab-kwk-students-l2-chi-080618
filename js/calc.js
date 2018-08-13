@@ -15,7 +15,7 @@ function doMath(){
 }
 var answer = 0
 function result (num1,num2,operator){
-  if (isNaN(num1 || num2)){
+  if (isNaN((num1) || num2)){
   answer = ("there is no answer")
    $("#result").html(answer)
   }
