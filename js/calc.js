@@ -36,7 +36,7 @@ function result (num1,num2,operator){
   else if (operator == "*"){
     answer = (num1*num)
   }
-  else (){
+  else {
     answer = ("not an operation")
   }
    $("#result").html(answer)
