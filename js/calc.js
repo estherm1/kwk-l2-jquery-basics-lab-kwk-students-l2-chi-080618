@@ -24,7 +24,6 @@ document.querySelector('#number1').addEventListener('keydown', function(event) {
   }
 })
 
-
 document.querySelector('#number2').addEventListener('keydown', function(event) {
   if (isNaN(event.key)) {
     alert("this is not a number, but instead it is a string");
