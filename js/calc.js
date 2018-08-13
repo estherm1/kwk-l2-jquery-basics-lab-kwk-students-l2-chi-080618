@@ -35,4 +35,3 @@ function result (num1,num2,operator){
   $("#result").html(answer)
   }
 }
-}
