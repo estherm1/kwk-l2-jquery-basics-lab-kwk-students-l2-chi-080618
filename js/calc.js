@@ -13,7 +13,7 @@ function doMath(){
       result(num1,num2,operator)
   })
 }
-var answer = 0
+var answer;
 function result (num1,num2,operator){
   if (isNaN(num1)){
   answer = ("there is no answer")
