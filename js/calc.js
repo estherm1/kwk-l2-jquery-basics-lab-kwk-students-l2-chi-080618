@@ -13,10 +13,10 @@ function doMath(){
       result(num1,num2,operator)
   })
 }
-const input = document.querySelector('input')
+//const input = document.querySelector('input')
 
 
-input.addEventListener('keydown', function(event) {
+document.querySelector('#number1').addEventListener('keydown', function(event) {
   if (isNaN(event.key)) {
     alert("this is not a number, but instead it is a string");
     return event.preventDefault()
