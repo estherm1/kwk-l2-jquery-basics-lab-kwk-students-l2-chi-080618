@@ -15,7 +15,7 @@ function doMath(){
 }
 
 function result (num1,num2,operator){
-  if (operator == -){
+  if (operator == "-"){
     alert(num1-num2)
   }
 }
