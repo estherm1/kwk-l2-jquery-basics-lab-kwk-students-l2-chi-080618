@@ -17,8 +17,8 @@ var answer = 0
 function result (num1,num2,operator){
   // if ((num==NaN) || (num2==NaN)){
   // answer = ("there is no answer")
-  }
-  else{
+  // }
+  // else{
   if (operator == "-"){
     answer = (num1-num2)
   }
@@ -33,6 +33,6 @@ function result (num1,num2,operator){
   }
    $("#result").html(answer)
  
-  }
+  // }
  
 }
