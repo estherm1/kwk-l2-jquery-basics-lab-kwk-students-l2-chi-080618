@@ -15,5 +15,5 @@ function doMath(){
 }
 
 function result (num1,num2,operator){
-  alert(`$(num1)$(operator)$(num2)`)
+  alert(`${num1}${operator}${num2}`)
 }
