@@ -32,6 +32,12 @@ function result (num1,num2,operator){
   else if (isNaN(num2)){
   answer = ("there is no answer")
    $("#result").html(answer)
+   input.addEventListener('keydown', function(event) {
+      console.log(event.key)
+  if (event.key === "g") {
+    return event.preventDefault()
+  }
+})
   }
   else {
   if (operator == "-"){
