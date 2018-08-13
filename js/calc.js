@@ -15,9 +15,9 @@ function doMath(){
 }
 var answer = 0
 function result (num1,num2,operator){
-  answer = ("there is no answer")
-  }  if ((num==NaN) || (num2==NaN)){
-
+  // if ((num==NaN) || (num2==NaN)){
+  // answer = ("there is no answer")
+  }
   else{
   if (operator == "-"){
     answer = (num1-num2)
