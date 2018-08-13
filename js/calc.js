@@ -16,21 +16,21 @@ function doMath(){
 const input = document.querySelector('input')
 
 
-// input.addEventListener('keydown', function(event) {
-//   if (isNaN(event.key)) {
-//     alert("this is not a number, but instead it is a string");
-//     return event.preventDefault()
+input.addEventListener('keydown', function(event) {
+  if (isNaN(event.key)) {
+    alert("this is not a number, but instead it is a string");
+    return event.preventDefault()
     
-//   }
-// })
+  }
+})
 
 
 
 var answer;
 function result (num1,num2,operator){
   if (isNaN(num1)){
- alert("this is not a number, but instead it is a string");
-     return event.preventDefault()
+  answer = ("there is no answer")
+   $("#result").html(answer)
   }
   else if (isNaN(num2)){
     
