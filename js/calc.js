@@ -18,4 +18,7 @@ function result (num1,num2,operator){
   if (operator == "-"){
     alert(num1-num2)
   }
+  else if (operator == "+"){
+    alert(num1+num2)
+  }
 }
