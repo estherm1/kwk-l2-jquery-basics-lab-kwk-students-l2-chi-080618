@@ -21,4 +21,10 @@ function result (num1,num2,operator){
   else if (operator == "+"){
     alert(num1+num2)
   }
+  else if (operator == "/"){
+    alert(num1/num2)
+  }
+  else if (operator == "*"){
+    alert(num1*num2)
+  }
 }
