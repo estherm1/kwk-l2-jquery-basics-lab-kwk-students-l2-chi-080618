@@ -29,8 +29,8 @@ const input = document.querySelector('input')
 var answer;
 function result (num1,num2,operator){
   if (isNaN(num1)){
-  answer = ("there is no answer")
-   $("#result").html(answer)
+ alert("this is not a number, but instead it is a string");
+     return event.preventDefault()
   }
   else if (isNaN(num2)){
     
