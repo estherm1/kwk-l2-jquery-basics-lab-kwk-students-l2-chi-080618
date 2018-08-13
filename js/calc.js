@@ -15,7 +15,14 @@ function doMath(){
 }
 const input = document.querySelector('input')
 
-in
+input.addEventListener('keydown', function(event) {
+      console.log(event.key)
+  if (event.key === "g") {
+    return event.preventDefault()
+  }
+})
+
+
 var answer;
 function result (num1,num2,operator){
   if (isNaN(num1)){
