@@ -16,7 +16,7 @@ function doMath(){
 var answer = 0
 function result (num1,num2,operator){
   if ((num1==NaN) || (num2==NaN)){
-  
+  answer = ("not a number")
   }
   else{
   if (operator == "-"){
