@@ -30,14 +30,15 @@ function result (num1,num2,operator){
    $("#result").html(answer)
   }
   else if (isNaN(num2)){
-  answer = ("there is no answer")
-   $("#result").html(answer)
-   input.addEventListener('keydown', function(event) {
+    input.addEventListener('keydown', function(event) {
       console.log(event.key)
   if (event.key === "g") {
     return event.preventDefault()
   }
 })
+  answer = ("there is no answer")
+   $("#result").html(answer)
+   
   }
   else {
   if (operator == "-"){
