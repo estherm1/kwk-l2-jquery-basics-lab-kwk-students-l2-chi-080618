@@ -31,8 +31,8 @@ function result (num1,num2,operator){
   else if (operator == "*"){
     answer = (num1*num)
   }
-  
+   $("#result").html(answer)
  
   }
-  $("#result").html(answer)
+ 
 }
