@@ -35,6 +35,7 @@ document.querySelector('#number2').addEventListener('keydown', function(event) {
 
 
 
+
 var answer;
 function result (num1,num2,operator){
   if (isNaN(num1)){
